@@ -7,7 +7,7 @@ resources:
 - helm-rucio-daemons.yaml
 #- helm-rucio-ui.yaml
 
-patchesStrategicMerge:
+patches:
 - patch-ingress.yaml
 - patch-grid-certificates.yaml
 - patch-hermesk-image.yaml
